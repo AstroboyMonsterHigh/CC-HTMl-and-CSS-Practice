@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Croissant One";
-  src: url("./fonts/CroissantOne-Regular.ttf") format("truetype");
-}
-
-
 html {
   font-size: 18px;
 }
@@ -32,7 +26,6 @@ html {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
   font-family: Verdana, sans-serif;
   font-size: .77rem;
-  font-weight: bold;
 }
 
 .header .logo {
@@ -61,16 +54,6 @@ html {
 }
 
 /* Banner */
-
-h1 {
-  font-weight: 500;
-  font-family: "Abril Fatface", sans-serif;
-}
-
-h2 {
-  font-weight: 900;
-  font-family: "Work Sans", sans-serif;
-}
 
 .banner {
   display: flex;
@@ -122,7 +105,6 @@ h2 {
   padding: 0 25% 4rem 25%;
   background-color: rgb(254, 231, 218);
   color: #4a4a4a;
-  font-family: "Work Sans", sans-serif;
 }
 
 .photo {
@@ -144,7 +126,6 @@ h2 {
 
 .photo .caption {
   font-style: italic;
-  font-family: Merriweather, sans-serif;
 }
 
 .photo.first {
@@ -156,7 +137,6 @@ h2 {
 .journal p {
   padding-bottom: 2.77rem;
   font-size: 1.5rem;
-  line-height: 1.4;
 }
 
 .journal .first-letter {
@@ -165,7 +145,6 @@ h2 {
   font-family: "Abril Fatface", serif;
   font-size: 7.44rem;
   color: #10b0d8;
-  line-height: .87;
 }
 
 .quote {
@@ -177,7 +156,6 @@ h2 {
   text-align: center;
   font-size: 3.55rem;
   font-weight: 800;
-  line-height: 1.2;
 }
 
 @media only screen and (max-width: 680px) {
@@ -193,7 +171,6 @@ footer {
   align-items: center;
   padding: 0 1%;
   background-color: #212121;
-  font-family: "Croissant One", "Merriweather", sans-serif;
 }
 
 footer .image-container {
@@ -204,7 +181,6 @@ footer .content {
   flex-grow: 1;
   font-style: italic;
   color: #9b9b9b;
-  line-height: 1.5;
 }
 
 footer p {

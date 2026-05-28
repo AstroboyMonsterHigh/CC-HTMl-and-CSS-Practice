@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Petemoss";
+  src: url('fonts/Petemoss-Regular.ttf') format("truetype");
+  font-weight: 400;
+}
+
+* {
+  font-family: "Petemoss" !important;
+}
+
 html {
   font-size: 18px;
 }

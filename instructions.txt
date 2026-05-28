@@ -59,11 +59,11 @@ The journal section: serif
 The photo caption: serif
 
 
-7.
+7. DONE
 Looking at the page, the author suggests the page would really come together if we used a specific font, CroissantOne-Regular.ttf, in the footer. The files have been downloaded and added to our project within the fonts directory within the styles/ directory where our CSS files are stored.
 
 To complete the task you need to use the @font-face property to make these fonts accessible in the stylesheets. Name the font "Croissant One".
 
 
-8.
+8. DONE
 Now that you have a @font-face rule, set the font-family property of the footer to "Croissant One" with "Merriweather" and serif as the fallback fonts.

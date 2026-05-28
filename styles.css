@@ -4,9 +4,17 @@
   font-weight: 400;
 }
 
-* {
-  font-family: "Petemoss" !important;
+@font-face {
+  font-family: "Croissant One";
+  src: url('fonts/CroissantOne-Regular.ttf') format("truetype");
+  font-weight: 400;
 }
+
+/*
+* {
+  font-family: "CroissantOne" !important;
+}
+  */
 
 html {
   font-size: 18px;
@@ -194,6 +202,7 @@ footer {
   padding: 0 1%;
   background-color: #212121;
   line-height: 1.5;
+  font-family: "Croissant One", "Merriweather", serif;
 }
 
 footer .image-container {
